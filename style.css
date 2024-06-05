@@ -1,0 +1,28 @@
+#container{
+    background-color: greenyellow;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+img{
+    height: 90px;
+    width: 150px;
+    
+}
+.header .icons{
+    display: flex;
+    
+}
+.header .icons ul{
+    display: flex;
+    align-items: center;
+}
+.header .icons ul li{
+    list-style: none;
+    padding: 0px 10px 0px 0px;
+}
